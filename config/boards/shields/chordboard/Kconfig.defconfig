@@ -1,6 +1,6 @@
-if SHIELD_CHOARDBOARD
+if SHIELD_CHORDBOARD
 
 config ZMK_KEYBOARD_NAME
-	default "chordboard"
+	default "ChordBoard"
 
 endif

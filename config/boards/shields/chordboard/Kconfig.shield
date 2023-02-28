@@ -1,2 +1,4 @@
-config SHIELD_TUBETEST
-	def_bool $(shields_list_contains,chordboard)
+config SHIELD_CHORDBOARD
+	def_bool $(shields_list_contains, ChordBoard)
+
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
